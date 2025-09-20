@@ -1,0 +1,164 @@
+{
+    "MidAOV_HighEng_HighProf": {
+        "conv_pot": 0.7909038767023339,
+        "profitability": 0.8485881373753593,
+        "lift_vs_control": 0.8071576785801602,
+        "size_norm": 0.052375607931163484,
+        "overall": 0.7417501342822097,
+        "size": 280,
+        "valid": true
+    },
+    "LowAOV_HighEng_HighProf": {
+        "conv_pot": 0.8060019898126366,
+        "profitability": 0.84374575649679,
+        "lift_vs_control": 0.5857518126447562,
+        "size_norm": 0.021885521885521887,
+        "overall": 0.7206628319767985,
+        "size": 117,
+        "valid": true
+    },
+    "HighAOV_HighEng_HighProf": {
+        "conv_pot": 0.7830919216068494,
+        "profitability": 0.8473579517290842,
+        "lift_vs_control": 0.5978639894527993,
+        "size_norm": 0.04751215862326973,
+        "overall": 0.7167175641419803,
+        "size": 254,
+        "valid": true
+    },
+    "HighAOV_MidEng_HighProf": {
+        "conv_pot": 0.4523119682756579,
+        "profitability": 0.8441116302022983,
+        "lift_vs_control": 0.778286643042258,
+        "size_norm": 0.03348297792742237,
+        "overall": 0.5997464014881505,
+        "size": 179,
+        "valid": true
+    },
+    "LowAOV_MidEng_HighProf": {
+        "conv_pot": 0.44016441188939914,
+        "profitability": 0.8577136863560701,
+        "lift_vs_control": 0.5911312010006043,
+        "size_norm": 0.017583239805462027,
+        "overall": 0.5800226833787944,
+        "size": 94,
+        "valid": true
+    },
+    "MidAOV_MidEng_HighProf": {
+        "conv_pot": 0.449126520571774,
+        "profitability": 0.8523001048348458,
+        "lift_vs_control": 0.38171393095252637,
+        "size_norm": 0.03535353535353535,
+        "overall": 0.5622773967932541,
+        "size": 189,
+        "valid": true
+    },
+    "HighAOV_HighEng_LowProf": {
+        "conv_pot": 0.7991017769396636,
+        "profitability": 0.3579738876655311,
+        "lift_vs_control": 0.6399133193357063,
+        "size_norm": 0.11878039655817434,
+        "overall": 0.538699637431466,
+        "size": 635,
+        "valid": true
+    },
+    "LowAOV_HighEng_LowProf": {
+        "conv_pot": 0.8107870846527786,
+        "profitability": 0.36148395504641795,
+        "lift_vs_control": 0.4557288456648728,
+        "size_norm": 0.051440329218107,
+        "overall": 0.5196253333679766,
+        "size": 275,
+        "valid": true
+    },
+    "MidAOV_HighEng_LowProf": {
+        "conv_pot": 0.7999688208131039,
+        "profitability": 0.34986209606058305,
+        "lift_vs_control": 0.38953496697310697,
+        "size_norm": 0.10942760942760943,
+        "overall": 0.5098286243895465,
+        "size": 585,
+        "valid": true
+    },
+    "HighAOV_LowEng_HighProf": {
+        "conv_pot": 0.1498126362490609,
+        "profitability": 0.8574405610508734,
+        "lift_vs_control": 0.9490086623304599,
+        "size_norm": 0.034418256640478866,
+        "overall": 0.5012439708170676,
+        "size": 184,
+        "valid": true
+    },
+    "MidAOV_LowEng_HighProf": {
+        "conv_pot": 0.14243689097286227,
+        "profitability": 0.8547656781861168,
+        "lift_vs_control": 0.18082832547626437,
+        "size_norm": 0.037598204264870934,
+        "overall": 0.42072368063770516,
+        "size": 201,
+        "valid": true
+    },
+    "LowAOV_LowEng_HighProf": {
+        "conv_pot": 0.13623203044522142,
+        "profitability": 0.8529892876833999,
+        "lift_vs_control": 0.2297214800339642,
+        "size_norm": 0.017022072577628132,
+        "overall": 0.4203628825126078,
+        "size": 91,
+        "valid": true
+    },
+    "LowAOV_MidEng_LowProf": {
+        "conv_pot": 0.444754861620757,
+        "profitability": 0.3291300539354167,
+        "lift_vs_control": 0.809174749957805,
+        "size_norm": 0.03591470258136925,
+        "overall": 0.39406291147638695,
+        "size": 192,
+        "valid": true
+    },
+    "MidAOV_MidEng_LowProf": {
+        "conv_pot": 0.4514988619118666,
+        "profitability": 0.3577938326065632,
+        "lift_vs_control": 0.3477824185124103,
+        "size_norm": 0.08529741863075196,
+        "overall": 0.3670250615216881,
+        "size": 456,
+        "valid": true
+    },
+    "HighAOV_MidEng_LowProf": {
+        "conv_pot": 0.4492816809653778,
+        "profitability": 0.36016328565626654,
+        "lift_vs_control": 0.18692810434989016,
+        "size_norm": 0.08810325476992144,
+        "overall": 0.35128112256063887,
+        "size": 471,
+        "valid": true
+    },
+    "MidAOV_LowEng_LowProf": {
+        "conv_pot": 0.1515932731664174,
+        "profitability": 0.3643498030878806,
+        "lift_vs_control": 0.9433281722116915,
+        "size_norm": 0.09090909090909091,
+        "overall": 0.30980095681379743,
+        "size": 486,
+        "valid": true
+    },
+    "HighAOV_LowEng_LowProf": {
+        "conv_pot": 0.1527850640343435,
+        "profitability": 0.34632173281937334,
+        "lift_vs_control": 0.4820281623535121,
+        "size_norm": 0.08286569397680509,
+        "overall": 0.2561321043745185,
+        "size": 443,
+        "valid": true
+    },
+    "LowAOV_LowEng_LowProf": {
+        "conv_pot": 0.15340713990360536,
+        "profitability": 0.36121078755405284,
+        "lift_vs_control": 0.013603491597414585,
+        "size_norm": 0.040029928918817806,
+        "overall": 0.21121051303468652,
+        "size": 214,
+        "valid": true
+    }
+}

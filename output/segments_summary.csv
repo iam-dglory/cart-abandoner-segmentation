@@ -1,0 +1,19 @@
+Segment Name,Size,Conv_Pot,Profitability,Overall Score,Valid
+MidAOV_HighEng_HighProf,280,0.79,0.85,0.74,True
+LowAOV_HighEng_HighProf,117,0.81,0.84,0.72,True
+HighAOV_HighEng_HighProf,254,0.78,0.85,0.72,True
+HighAOV_MidEng_HighProf,179,0.45,0.84,0.6,True
+LowAOV_MidEng_HighProf,94,0.44,0.86,0.58,True
+MidAOV_MidEng_HighProf,189,0.45,0.85,0.56,True
+HighAOV_HighEng_LowProf,635,0.8,0.36,0.54,True
+LowAOV_HighEng_LowProf,275,0.81,0.36,0.52,True
+MidAOV_HighEng_LowProf,585,0.8,0.35,0.51,True
+HighAOV_LowEng_HighProf,184,0.15,0.86,0.5,True
+MidAOV_LowEng_HighProf,201,0.14,0.85,0.42,True
+LowAOV_LowEng_HighProf,91,0.14,0.85,0.42,True
+LowAOV_MidEng_LowProf,192,0.44,0.33,0.39,True
+MidAOV_MidEng_LowProf,456,0.45,0.36,0.37,True
+HighAOV_MidEng_LowProf,471,0.45,0.36,0.35,True
+MidAOV_LowEng_LowProf,486,0.15,0.36,0.31,True
+HighAOV_LowEng_LowProf,443,0.15,0.35,0.26,True
+LowAOV_LowEng_LowProf,214,0.15,0.36,0.21,True
