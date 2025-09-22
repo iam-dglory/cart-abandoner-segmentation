@@ -5,9 +5,6 @@ import numpy as np
 import os
 import matplotlib.pyplot as plt
 
-# -------------------------
-# 1️⃣ Simulate Dataset
-# -------------------------
 def simulate_dataset(n=10000, seed=42):
     np.random.seed(seed)
     df = pd.DataFrame({
@@ -24,9 +21,6 @@ def simulate_dataset(n=10000, seed=42):
     })
     return df
 
-# -------------------------
-# 2️⃣ Build MECE Segments
-# -------------------------
 def build_segments(universe: pd.DataFrame):
     segments = {}
 
@@ -65,9 +59,6 @@ def build_segments(universe: pd.DataFrame):
 
     return segments, universe
 
-# -------------------------
-# 3️⃣ Validate MECE
-# -------------------------
 def validate_mece(segments, universe):
     union_size = sum(len(df) for df in segments.values())
     uni_size = len(universe)
@@ -75,9 +66,6 @@ def validate_mece(segments, universe):
         return False, f"Union size {union_size} != universe size {uni_size}"
     return True, "MECE segmentation passed"
 
-# -------------------------
-# 4️⃣ Compute Scores & Reranker
-# -------------------------
 def compute_scores(segments):
     scores = {}
     total_users = sum(len(df) for df in segments.values())
@@ -100,9 +88,6 @@ def compute_scores(segments):
     scores = dict(sorted(scores.items(), key=lambda x: x[1]['overall'], reverse=True))
     return scores
 
-# -------------------------
-# 5️⃣ Print Segment Summary
-# -------------------------
 def print_segment_summary(segments, scores):
     print("\nSegment Summary:")
     print("{:<35} {:>6} {:>10}".format("Segment Name", "Size", "Overall Score"))
@@ -113,10 +98,7 @@ def print_segment_summary(segments, scores):
     print("-" * 55)
     print("{:<35} {:>6}".format("Total Users", total))
     print()
-
-# -------------------------
-# 6️⃣ Export CSV / JSON
-# -------------------------
+    
 def export_outputs(scores):
     os.makedirs("output", exist_ok=True)
     # CSV
@@ -134,9 +116,6 @@ def export_outputs(scores):
     with open("output/segments_summary.json", "w") as f:
         json.dump(scores, f, indent=4)
 
-# -------------------------
-# 7️⃣ Optional Pie Chart Visualization
-# -------------------------
 def plot_segments(segments):
     sizes = [len(s) for s in segments.values()]
     labels = list(segments.keys())
@@ -146,9 +125,6 @@ def plot_segments(segments):
     plt.tight_layout()
     plt.show()
 
-# -------------------------
-# 8️⃣ Main Execution
-# -------------------------
 def main():
     df = simulate_dataset(10000)
     df["days_since_abandon"] = (pd.Timestamp.now().normalize() - df["cart_abandoned_date"]).dt.days
